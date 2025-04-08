@@ -1,0 +1,54 @@
+body {
+  min-height: 100vh;
+  margin: 0;
+  background-image: radial-gradient(circle, white, rgba(122, 234, 122, 0.2), rgb(122, 234, 122));
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
+}
+
+
+.owner-container h1 {
+  color: #2cb6a1;
+  font-size: 5rem; 
+  padding: 2rem ;
+  margin-bottom: 2.5rem;
+  margin-top:0;
+}
+
+.owner-options {
+  display: flex;
+  gap: 5rem;
+  flex-wrap: wrap;
+  padding: 2rem ;
+  justify-content: center;
+}
+
+.option-card {
+  cursor: pointer;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.option-card img {
+  width: 200px; 
+  height: 200px;
+  object-fit: cover;
+  border-radius: 16px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+.option-card p {
+  margin-top: 1rem;
+  font-size: 2rem; 
+  color: #2cb6a1;
+  font-weight: bold;
+}
+
+.option-card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.2);
+}

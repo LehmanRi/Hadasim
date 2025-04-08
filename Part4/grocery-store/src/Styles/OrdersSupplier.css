@@ -1,0 +1,41 @@
+.orders-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px; 
+  padding: 20px;
+}
+
+.order-card-supplier {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 16px 20px;
+  width: 300px; 
+  transition: transform 0.2s ease-in-out;
+}
+
+.order-card-supplier:hover {
+  transform: scale(1.02);
+}
+.order-card-supplier h3,
+.order-card-supplier p,
+.order-card-supplier li {
+  color: #2cb6a1;
+  font-size: 1rem;
+  margin: 0.3rem 0;
+}
+
+.approve-button {
+  margin-top: 10px;
+  padding: 10px 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.approve-button:hover {
+  background-color: #45a049;
+}

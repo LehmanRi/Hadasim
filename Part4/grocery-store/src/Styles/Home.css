@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: none;
+  overflow: hidden; 
+}
+
+.home-container {
+  height: 100vh;
+  width: 100vw;
+  background-image: url('../Picture/supermarket.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  padding: 0rem;
+  margin-top: 0.2rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  background-color: rgba(143, 62, 235, 0.7);
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+}
+
+.home-content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-grow: 1;
+  padding-top: 0.2rem;
+}
+
+.home-content h1 {
+  font-size: 3rem;
+  color:rgba(143, 62, 235, 0.7);
+  border-radius: 10px;
+  text-shadow: 2px 2px 4px rgba(143, 62, 235, 0.4);
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
