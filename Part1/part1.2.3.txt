@@ -1,0 +1,2 @@
+If the information comes by stream I will save a count of the stream that came and the sum of values of every hour.
+The average will be calculated immediately by sum of the values divided by count.
